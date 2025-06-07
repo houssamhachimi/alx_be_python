@@ -2,15 +2,15 @@
 
 def perform_operation(num1: float, num2: float, operation: str):
     """
-    Perform the specified arithmetic operation on two numbers.
+    Performs basic arithmetic operations.
 
     Parameters:
         num1 (float): The first number.
         num2 (float): The second number.
-        operation (str): The operation to perform: 'add', 'subtract', 'multiply', or 'divide'.
+        operation (str): One of 'add', 'subtract', 'multiply', or 'divide'.
 
     Returns:
-        float or str: The result of the arithmetic operation, or an error message if invalid.
+        float or str: The result of the operation or an error message for invalid input or division by zero.
     """
     if operation == 'add':
         return num1 + num2
